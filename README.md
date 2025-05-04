@@ -38,7 +38,7 @@ For my hash functions I wrote each one out individually, then went back several 
 
 Each function I tested with a cout statement to ensure the necessary outputs were coming through. Once I finished the project, I considered other edge cases besides false positives that might come to play. 
 
-The one that really stood out was the possibility of someone typing in a word in capital letters vs. lowercase. The dictionary I imported only uses lowercase words. Originally, I thought about just added to the original question to the user to only use lowercase, but decided to challenge myself to figure out a way to ensure each character in a word from a user is converted to lowercase.
+The one that really stood out was the possibility of someone typing in a word in capital letters vs. lowercase. The dictionary I imported only uses lowercase words. Originally, I thought about just adding to the original question to only use lowercase, but decided to challenge myself to figure out a way to ensure each character in a word from a user is converted to lowercase.
 
 Fortunately, there's a C++ function for just that! Once I figured out how to properly use this in my user input function I was ready to do my final tests.
 
