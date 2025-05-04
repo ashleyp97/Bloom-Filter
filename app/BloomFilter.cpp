@@ -61,6 +61,7 @@ void BloomFilter::insertBloomFilter(string& line){
 }
 
 //This function checks the user input (word), hashes it and then determines if all the corresponding bits are changed to 1 indicating its present.
+//Followed this tutorial: https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/
 bool BloomFilter::contains(string word) { 
 
 //Compute hashes with different salts to stimulate independent hash functions lowering the risk of false positives.

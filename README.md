@@ -44,7 +44,7 @@ Fortunately, there's a C++ function for just that! Once I figured out how to pro
 
 ## Resources 
 
-Below are resources I reviewed to utulized to write my code and understand my data structure. 
+Below are resources I reviewed to write my code and understand my data structure. 
 
 - https://systemdesign.one/bloom-filters-explained/
 - https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/
